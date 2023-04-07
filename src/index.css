@@ -47,6 +47,13 @@ body {
   padding: 10px 15px;
 }
 
+.nothing {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 20px 0;
+}
+
 .todoItem {
   width: 100%;
   display: flex;

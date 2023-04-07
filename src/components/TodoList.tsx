@@ -8,7 +8,7 @@ type TodoListProps = {
 }
 
 const TodoList: React.FC<TodoListProps> = ({todos, onToggle, onRemove}) => {
-  if (todos.length === 0) return <p>Nothing to do</p>
+  if (todos.length === 0) return <div className='nothing'>Nothing to do</div>
 
   return (
     <ul className='todoList'>
